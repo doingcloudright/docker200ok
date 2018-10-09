@@ -1,0 +1,10 @@
+server {
+    listen       REPLACEPORT;
+    server_name  localhost;
+
+    location / {
+         return 200 'OK\n';
+
+    }
+}
+
